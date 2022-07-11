@@ -1,0 +1,71 @@
+
+.maindiv
+{
+    background-image: url(rivets.png);
+    background-color: #3d4863;
+    position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentdiv
+{
+    position: absolute;
+    color: #000000;
+    margin:auto;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    background-color: #ffffff;
+    overflow: auto;
+    padding: 8px;
+}
+
+.roundcorners
+{
+	background: #eaeaea;
+	border:10px solid #282C34;
+    border-radius: 10px 10px 10px 10px;
+}
+
+table
+{
+    border-collapse: separate;    
+}
+
+td
+{
+    border: 1px solid #333333;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: small;
+    color: #202020;
+}
+
+th
+{
+    border: 1px solid #333333;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: small;
+    color: #eaeaea;
+    font-weight: bold;
+    background-color: #282C34;
+}
+
+caption
+{
+    border-style: none;
+    border-color: #333333;
+    border-width: 1px 1px 0px 1px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #eaeaea;
+    background-color: #282C34;
+}
