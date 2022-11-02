@@ -45,7 +45,7 @@ function createTable2()
     // iterate data, adding rows and cells for each item
     for(let element of elements)
     {
-        if(element.week !== weekOff )
+        if(element.week !== weekOff, element.week !== weekOff + 7)
         {
         const drow = document.createElement("tr");
         table.appendChild(drow);
