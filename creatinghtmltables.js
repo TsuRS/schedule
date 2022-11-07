@@ -45,19 +45,22 @@ function createTable2()
     // iterate data, adding rows and cells for each item
     for(let element of elements)
     {
-        if(element.week !== weekOff, element.week !== weekOff + 7)
+        if(element.week !== weekOff)
         {
-        const drow = document.createElement("tr");
-        table.appendChild(drow);
+            if(element.week !== weekOff + 7 )
+            {
+                const drow = document.createElement("tr");
+                table.appendChild(drow);
 
-        for(let property of properties)
-        {
-            const td = document.createElement("td");
-            const tdtext = document.createTextNode(element[property]);
-            td.appendChild(tdtext);
-            drow.appendChild(td);
+                for(let property of properties)
+                {
+                    const td = document.createElement("td");
+                    const tdtext = document.createTextNode(element[property]);
+                    td.appendChild(tdtext);
+                    drow.appendChild(td);
+                }
+            }
         }
-    }
     }
 
     // add table to div
