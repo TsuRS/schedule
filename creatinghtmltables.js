@@ -11,7 +11,7 @@ window.onload = function()
 function createTable2()
 {
     const currentDate = new Date();
-    const anchorOff = 1
+    const anchorOff = 5
     const anchorDate = new Date(2022, 6, 3, 0, 0, 0, 0);
     const weekDifference = (currentDate.getTime() - anchorDate.getTime())/(1000*3600*24*7);
     const weekOff = Math.floor((weekDifference + anchorOff) % 7);
