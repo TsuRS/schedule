@@ -15,65 +15,65 @@ class Elements
         return [
         {
             week: 1,
-            mon: "数学 HL / 日本語 HL",
-            tue: "地歴",
-            wed: "化学 HL / 歴史 HL",
-            thu: "英語 SL",
-            fri: "英語 SL"
+            mon: "英語 SL",
+            tue: "日本語 SL",
+            wed: "ESS / 歴史 HL",
+            thu: "数学 SL",
+            fri: "化学 SL / Film SL"
         },
         {
             week: 2,
-            mon: "数学 HL / 日本語 HL",
-            tue: "物理 SL / 生物 SL",
-            wed: "日本語 SL",
-            thu: "英語　SL",
-            fri: "地歴"
+            mon: "英語 HL / 化学 HL",
+            tue: "日本語 SL",
+            wed: "物理 HL / 生物 HL",
+            thu: "経済 HL / 歴史 HL",
+            fri: "化学 SL / Film SL"
         },
         {
             week: 3,
-            mon: "ESS / 歴史 HL",
-            tue: "物理 HL / 生物 HL / 経済 HL",
-            wed: "日本語 SL",
-            thu: "数学 SL",
-            fri: "日本語 SL"
+            mon: "経済 HL / 歴史 HL",
+            tue: "数学 SL",
+            wed: "英語 HL / 化学 HL",
+            thu: "日本語 SL",
+            fri: "情報"
         },
         {
             week: 4,
-            mon: "ESS / 歴史 HL",
-            tue: "経済 SL",
-            wed: "体育",
-            thu: "物理 SL / 生物 SL",
-            fri: "数学 SL"
+            mon: "体育",
+            tue: "物理 HL / 生物 HL",
+            wed: "英語 SL",
+            thu: "化学 SL / Film SL",
+            fri: "物理 SL / 生物 SL"
         },
         {
             week: 5,
-            mon: "物理 HL / 生物 HL / 経済 HL",
-            tue: "Film SL / 化学 SL",
-            wed: "英語 HL",
-            thu: "物理 SL / 生物 SL",
-            fri: "化学 HL / 歴史 HL"
+            mon: "日本語 HL / 数学 HL",
+            tue: "ESS / 歴史 HL",
+            wed: "経済 SL",
+            thu: "体育",
+            fri: "物理 SL / 生物 SL"
         },
         {
             week: 6,
-            mon: "体育",
-            tue: "Film SL / 化学 SL",
-            wed: "TOK",
-            thu: "Film SL / 化学 SL",
-            fri: "ESS / 歴史 HL"
+            mon: "物理 SL / 生物 SL",
+            tue: "ESS / 歴史 HL",
+            wed: "数学 SL",
+            thu: "TOK",
+            fri: "英語 SL"
         },
         {
             week: 7,
-            mon: "LHR",
-            tue: "数学 SL",
-            wed: "TOK",
-            thu: "体育",
+            mon: "保険",
+            tue: "経済 SL",
+            wed: "日本語 HL / 数学 HL",
+            thu: "TOK",
             fri: "経済 SL"
         },
         {
             week: "Extra",
-            mon: "",
-            tue: "英語 HL",
-            wed: "経済 SL",
+            mon: "LHR",
+            tue: "",
+            wed: "",
             thu: "",
             fri: ""
         },
