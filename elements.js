@@ -35,7 +35,7 @@ class Elements
             tue: "数学 SL",
             wed: "英語 HL / 化学 HL",
             thu: "日本語 SL",
-            fri: "情報"
+            fri: "日本語 HL / 数学 HL"
         },
         {
             week: 4,
@@ -47,7 +47,7 @@ class Elements
         },
         {
             week: 5,
-            mon: "日本語 HL / 数学 HL",
+            mon: "情報",
             tue: "ESS / 歴史 HL",
             wed: "経済 SL",
             thu: "体育",
